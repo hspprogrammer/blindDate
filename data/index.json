@@ -1,20 +1,13 @@
-[
-    {
-        "name": "韩善鹏",
-        "male": "1",
-        "birthday": "1996.06.03",
-        "hometown": ""
-    },
-    {
-        "name": "大美女",
-        "male": "2",
-        "birthday": "1996.06.03",
-        "hometown": ""
-    },
-    {
-        "name": "大帅哥",
-        "male": "1",
-        "birthday": "1996.06.03",
-        "hometown": ""
-    }
-]
+[ {
+    "photo": "https://img1.baidu.com/it/u=3251142218,4227433679&fm=253&fmt=auto&app=138&f=JPEG?w=509&h=500",
+    "name": "憨豆",
+    "height": "170",
+    "job": "演员",
+    "wechat": "sss",
+    "male": "1",
+    "birthday": 1654531200000,
+    "yearIncome": "20",
+    "hometown": ["110000", "110100", "110102"],
+    "localtion": ["110000", "110100", "110102"],
+    "introduction": "a后回家啊时间多久啊啥的就把精神的悲剧啊时间大把时间的吧"
+}]

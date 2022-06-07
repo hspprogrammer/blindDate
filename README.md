@@ -1,7 +1,7 @@
 @[TOC](相亲)
 # 如何使用
 
- 1. 在根目录 node app.js，启动一个接口服务。
+ 1. 在根目录npm install完成后 node app.js，启动一个接口服务。
 
 > node app.js
 

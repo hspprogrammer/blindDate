@@ -44,10 +44,10 @@ app.post('/person/list', (req, res) => {
                 res = res&&item.yearIncome < yearIncomeEnd;
             }
             if(hometown&&hometown.length){
-                res = res&&item.hometown[0] ==hometown[0]&&item.hometown[1] ==hometown[1]&&item.hometown[2] ==hometown[2];
+                res = res&&item.hometown.toString() ==hometown.toString();
             }
             if(localtion&&localtion.length){
-                res = res&&item.localtion[0] ==localtion[0]&&item.localtion[1] ==localtion[1]&&item.localtion[2] ==localtion[2];
+                res = res&&item.localtion.toString() ==localtion.toString();
             }
             return res;
         })

@@ -15,11 +15,11 @@ app.use(cors());
 app.post('/person/list', (req, res) => {
     fs.readFile(path.join(__dirname, './data/index.json'), 'utf8', (err, data) => {
         if (err) {
-            console.log(err)
+            console.log({err})
              return
         }
         const {male,ageStart,ageEnd,heightStart,heightEnd,yearIncomeStart,yearIncomeEnd,localtion,hometown,page,size} = req.body;
-        data = JSON.parse(data);
+        data = JSON.parse(data||'[]');
         data = data.filter((item)=>{
             let res = true;
             if(male){
